@@ -1,0 +1,309 @@
+<!-- Home.Html (1) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Evergreen Pines</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO EVERGREEN PINES APARTMENTS</h1>
+        <p>EDEN GARDEN</p>
+    </header>
+
+    <!-- Navigation Section -->
+<nav>
+    <ul>
+        <li><a class="logo" href="Evergreen Pines">Evergreen Pines</a></li>
+        <li><a href="#floor-plans">Floor Plans</a></li>
+        
+        
+        <li class="dropdown" style="list-style-type: none; display: inline-block; margin-right: 10px;">
+            <a href="#Features" class="dropbtn">Features</a>
+            <select id="features-dropdown" name="features-dropdown" class="dropdown-content" style="display: none; position: absolute; background-color: #fff; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;">
+                <option value="#gas-range">Gas Range</option>
+                <option value="#microwave">Microwave</option>
+                <option value="#patio-balcony">Patio/Balcony</option>
+                <option value="#washer-dryer">Washer/Dryer</option>
+                <option value="#swimming-pools">Swimming Pools</option>
+            </select>
+        </li>
+         <li><a href="Contact.html">Contact</a></li>
+         <li style="float:right">
+            <a href="#loginForm" id="login-link" tabindex="1">
+                <class="login-user"/>Log In
+            </a>
+
+            <form action="login" tabindex="2" id="loginForm">
+                <label for="userName">User name
+                    <input type="text" name="userName" id="UserName" required />
+                </label>
+                <br>
+                <label for="password">Password
+                    <input type="password" name="password" id="password" required />
+                </label>
+                <br> 
+                <button type="submit">Login</button>
+            </form>
+        </li>
+    </ul>
+</nav>
+
+
+    <section>
+        <div class="image-container">
+            <img src="https://artgare.com/wp-content/uploads/2022/10/Stylized-Apartment-03-Artgare.jpg" alt="Evergreen Pines Image">
+        </div>
+    </section>
+
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html>
+
+<!-- Floor Plans & Features.Html (2) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features - Evergreen Pines</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a class="logo" href="Evergreen Pines">Evergreen Pines</a></li>
+            <li><a href="#floor-plans">Floor Plans</a></li>
+            <li><a href="#features">Features</a></li>
+        </ul>
+    </nav>
+
+    <section id="floor-plans">
+        <h2>Floor Plans</h2>
+        <p>Stunning One and Two Bedroom Apartment in Seattle, WA to meet your needs and lifestyle.</p>
+        <ul>
+            <li><a href="#one-bedroom">One Bedroom</a></li>
+            <li><a href="#two-bedroom">Two Bedroom</a></li>
+        </ul>
+        <div class="floor-plans-container">
+            <div id="one-bedroom" class="one-bedroom">
+                <img src="https://fpg.roomsketcher.com/image/level/362/3d/3D-Floor-Plan-Narrow-Bathroom-Bathtub.jpg" alt="One Bedroom Image 1">
+                <img src="https://image.roomsketcher.com/?type=gallery&id=23312646&ts=20220113093807" alt="One Bedroom Image 2">
+                <img src="https://image.roomsketcher.com/?type=gallery&id=23312642&ts=20220113093743" alt="One Bedroom Image 3">
+                <p>One-Bedroom</p>
+            </div>
+            <div id="two-bedroom" class="two-bedroom">
+                <img src="https://fpg.roomsketcher.com/image/level/3/3d/2-Bedroom-House-Plan-3D.jpg" alt="Two Bedroom Image 1">
+                <img src="https://image.roomsketcher.com/?type=gallery&id=25395888&ts=20231005065420" alt="Two Bedroom Image 2">
+                <img src="https://image.roomsketcher.com/?type=gallery&id=25395877&ts=20231005065402" alt="Two Bedroom Image 3">
+                <p>Two Bedroom</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Features">
+        <h3>Features and Amenities</h3>
+        <p>Experience an enhanced daily life at Evergreen Pines...</p>
+        
+        <!-- Table for Features and Amenities -->
+
+        <table>
+            <tr>
+                <th>Feature</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Dishwashers</td>
+                <td>High-efficiency dishwashers for convenient cleaning.</td>
+            </tr>
+            <tr>
+                <td>Gas Range</td>
+                <td>Modern gas ranges for precise cooking control.</td>
+            </tr>
+            <tr>
+                <td>Microwave</td>
+                <td>Convenient microwave ovens for quick heating.</td>
+            </tr>
+            <tr>
+                <td>Patio/Balcony</td>
+                <td>Private outdoor spaces to enjoy the view.</td>
+            </tr>
+            <tr>
+                <td>Washer/Dryer</td>
+                <td>In-unit washer and dryer for laundry convenience.</td>
+            </tr>
+            <tr>
+                <td>Swimming Pools</td>
+                <td>Three pristine swimming pools for relaxation.</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html>
+
+
+<!-- Contact.Html (3) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a class="logo" href="Evergreen Pines">Evergreen Pines</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+<section id="contact">
+    <h1>Contact Evergreen Pines Apartments</h1>
+
+    <article class="contact.html">
+        <form action="/submit_form.php" method="post">
+            <label for="firstName">First Name
+                <input type="text" name="firstName" id="firstName" required />
+            </label>
+            <br>
+            <label for="lastName">Last Name
+                <input type="text" name="lastName" id="lastName" required />
+            </label>
+            <br>
+            <label for="email">Email Address
+                <input type="email" name="email" id="email" required />
+            </label>
+            <br>
+            <label for="phoneNumber">Phone Number
+                <input type="tel" name="phoneNumber" id="phoneNumber" required />
+            </label>
+            <br>
+            <label for="message">Message
+                <textarea name="message" id="message" rows="5" required></textarea>
+            </label>
+            <br>
+            <button type="submit">Send a Message</button>
+        </form>
+    </article>
+</section>
+
+    <footer>
+        <p>&copy; 2024 Evergreen Pines Apartments. All rights reserved.</p>
+    </footer>
+
+
+    <!-- Inline CSS for Contact.Html -->
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        nav {
+            background-color: #4CAF50;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        nav li {
+            float: left;
+            margin-right: 20px;
+        }
+
+        nav a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        h1 {
+            color: #8338ec;
+        }
+
+        article {
+            background-color: #cad2c5;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        form, label, input, textarea, button {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
